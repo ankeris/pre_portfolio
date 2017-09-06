@@ -136,10 +136,12 @@ box-shadow: 5px 5px 5px 2px black;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	margin-bottom: -12px;
+	color: rgba(255,255,255,0.8);
 }
 
 .sub-section {
 background-color: #476b6b;
+color: rgba(255,255,255,0.8);
 border-top: 12px solid #add8e6;
 border-right: 1px solid #add8e6;
 border-left: 1px solid #add8e6;
@@ -271,7 +273,10 @@ g.movieclip`
 footer {
 	text-align: center;
 }
-
+/*******************************************************************/
+/* 					   		 E x t r a 	 		  					/
+/*******************************************************************/
+.bgtext { position: relative;}.bgtext:after {content: "Drag me";font-size: 20pt;color: rgba(255,255,255,0.3);position: absolute;top: 40%;left: 50%; z-index: -1;}
 /*******************************************************************/
 /* 					    M e d i a QUERYZ 		  					/
 /*******************************************************************/

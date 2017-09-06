@@ -74,10 +74,11 @@
 
 <figure id="technologySection" class="column column2 sub-section" style="overflow: hidden">
 	<span class="title-center"><?php include 'svg/technologies.php';?></span>
-		<div class="owl-carousel childElement-sub-section">
+		<div class="owl-carousel childElement-sub-section bgtext">
 		  		<div class="owl-child"><img src="pictures/snap.svg"></div>
 		  		<div class="owl-child"><img src="pictures/flicon.png"></div>
 		  		<div class="owl-child"><img src="pictures/slackicon.png"></div>
+		  		<div class="owl-child"><img src="pictures/github.png"></div>
 		  		<div class="owl-child"><img src="pictures/psicon.png"></div>
 		  		<div class="owl-child"><img src="pictures/jsicon.png"></div>
 		  		<div class="owl-child"><img src="pictures/aiicon.png"></div>
@@ -135,7 +136,7 @@
 <div id="websitesSection" class="column column6 sub-section"></div>
 
 <div id="" class="column column7 column-photo">
-<span class="column-photo-title"><p class="">i'm just proud of my room, that's all</p></span>
+<span class="column-photo-title"><p>i'm just proud of my room, that's all</p></span>
 </div>
 
 <footer id="footer" class="column column8">&copy 2 0 1 7 Rastenis</footer>
