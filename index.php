@@ -53,11 +53,12 @@
 		</div>
 		<div class="childElement-column-photo">
 			<h2 class="title">ethos</h2>
-			<p>
-			Although I fairly believe in importance of research, some intuition could always be a gateway<br>
-			Simplify the design but never too much.<br>
-			Try new.
-			</p>
+			<ul>
+				<li><p>- Although I fairly believe in importance of research, some intuition could always be a gateway.</p></li>
+				<li><p>- Simplify the design but never too much.</p></li>
+				<li><p>- Explore and inspect everything on the web.</p></li>
+				<li><p>- Don't be afraid to try new.</li>
+			</ul>
 		</div>
 		<div class="childElement-column-photo">
 			<h3 class="title">what's this?</h3>
@@ -110,7 +111,7 @@
 			    <textarea id="m" class="input" id="subject" name="subject" rows="6" placeholder="Text field.."></textarea>
 			</div>
     		<input id="mybtn" class="button" type="submit" value="Submit Form"><span id="status"></span>
-    		<p>Otherwise +45 28 70 79 67 // juozas.rastenis@gmail.com</p>
+    		<p>Otherwise +45 28 70 79 67 &nbsp||&nbsp juozas.rastenis@gmail.com</p>
   		</form>
 	</span>
 </section>
