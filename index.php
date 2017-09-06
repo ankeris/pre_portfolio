@@ -133,7 +133,7 @@
 	</span>
 </figure>
 <!-- no content yet -->
-<div id="websitesSection" class="column column6 sub-section"></div>
+<div id="websitesSection" class="column column6 sub-section">github, j5s, learning-diary, studies-learn, personal goals</div>
 
 <div id="" class="column column7 column-photo">
 <span class="column-photo-title"><p>i'm just proud of my room, that's all</p></span>
