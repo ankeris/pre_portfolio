@@ -5,6 +5,14 @@
 *{
 	margin:0;
 	padding:0;
+	/* this below makes all the borders go inside elements */
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+a {
+	color: rgba(255,255,255,0.8);
+	text-decoration: none;
 }
 body{
 	-webkit-transition: 4s;
@@ -67,14 +75,29 @@ input, .input{
 :-moz-placeholder { /* Firefox 4 - 18 */
   color: rgba(255,255,255,0.3);;
 }
-.button {
-	border: 1px solid black;
+.buttonsmall {
 	margin: 3px;
 	background: rgba(255,255,255,0.1);
 	border: 2px solid rgba(0,0,0,0.3);
 	font-size: 15pt;
 	font-weight: bold;
 	width: 200px;
+}
+.button {
+	background: rgba(255,255,255,0.1);
+	border: 2px solid rgba(0,0,0,0.3);
+	font-size: 15pt;
+	font-weight: bold;
+	padding: 10px;
+}
+.buttonsmall:hover , .button:hover{
+	background: rgba(0,0,0,0.1);
+	transition-duration: 90ms;
+}
+.consolidationForTitles{
+	font-family: 'ConsolidationForTitles';
+	font-size: 50pt;
+
 }
 /*******************************************************************/ 
 /* 					       Menu Navigation 							/
@@ -114,7 +137,7 @@ padding: 10px;
 position: relative;
 box-shadow: 5px 5px 5px 2px black;
 }
-.column2, .column4{
+.column2, .column4, .column6{
 	text-align: center;
 }
 .column1{
@@ -169,7 +192,8 @@ box-shadow: 9px 13px 58px -3px rgba(0,0,0,0.42);
 .childElement-sub-section{
 	width: 100%;
 	color: rgba(255,255,255,0.8);
-	margin-top: 5%;}
+	margin-top: 50px;
+	overflow:hidden;}
 	/* border-radius: 12px;
 	border: 5px solid rgba(0,0,0,0.1); */
 #textDisplay {
@@ -194,7 +218,7 @@ word-wrap: break-word;
 .col {
 	display: block;
 	float:left;
-	margin: 1% 0 1% 1.6%;
+	margin: 1% 0 1% 1%;
 }
 .col:first-child { margin-left: 0; }
 
@@ -247,8 +271,7 @@ display: none;
 }
 .title-center {
 	width: 100%;
-	text-align: center;
-}
+	margin: 0 auto; font-family: 'consolidationForTitles'; font-size: 50pt;}
 
 /*******************************************************************/
 /* 					    P l u g i n s	 		  					/
@@ -276,7 +299,7 @@ footer {
 /*******************************************************************/
 /* 					   		 E x t r a 	 		  					/
 /*******************************************************************/
-.bgtext { position: relative;}.bgtext:after {content: "Drag me";font-size: 20pt;color: rgba(255,255,255,0.3);position: absolute;top: 40%;left: 50%; z-index: -1;}
+.bgtext { position: relative;}.bgtext:after {content: "Drag me";font-family: 'consolidationForTitles'; font-size: 20pt;color: rgba(255,255,255,0.3);position: absolute;top: 40%;left: 47%; z-index: -1;}
 /*******************************************************************/
 /* 					    M e d i a QUERYZ 		  					/
 /*******************************************************************/
@@ -302,6 +325,10 @@ nav a {
 	}
 .title-center svg{
 	max-width: 90%;
+}
+.title-center {
+	max-width: 90%;
+	font-size: 25pt;
 }
 #textDisplay {
 font-family: 'ConsolidationForTitles';

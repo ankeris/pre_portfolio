@@ -1,5 +1,7 @@
 var inputBox = document.getElementById('textInput');
+var textDisplay = document.getElementById('textDisplay');
 
 inputBox.onkeyup = function(){
-    document.getElementById('textDisplay').innerHTML = inputBox.value;
+     textDisplay.innerHTML = inputBox.value;
 }
+

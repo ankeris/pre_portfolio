@@ -82,6 +82,7 @@
 		  		<div class="owl-child"><img src="pictures/github.png"></div>
 		  		<div class="owl-child"><img src="pictures/psicon.png"></div>
 		  		<div class="owl-child"><img src="pictures/jsicon.png"></div>
+		  		<div class="owl-child"><img src="pictures/vue.png"></div>
 		  		<div class="owl-child"><img src="pictures/aiicon.png"></div>
 		  		<div class="owl-child"><img src="pictures/chromeicon.png"></div>
 		  		<div class="owl-child"><img src="pictures/p5.png"></div>
@@ -98,7 +99,7 @@
 
 
 <section id="contactSection" class="column column4 sub-section">
-	<span class="title-center"><?php include 'svg/contactme.php'; ?>
+	<span class="title-center"><?php include 'svg/contactme.php'; ?></span>
 		<form id="my_form" onsubmit="submitForm(); return false;" class="childElement-sub-section">
 			<div class="col span_1_of_2">
 			    <label for="fname"><p>Your Name</p></label>
@@ -110,42 +111,54 @@
 			    <label for="country"><p>Message</p></label>
 			    <textarea id="m" class="input" id="subject" name="subject" rows="6" placeholder="Text field.."></textarea>
 			</div>
-    		<input id="mybtn" class="button" type="submit" value="Submit Form"><span id="status"></span>
+    		<input id="mybtn" class="buttonsmall" type="submit" value="Submit Form"><span id="status"></span>
     		<p>Otherwise +45 28 70 79 67 &nbsp||&nbsp juozas.rastenis@gmail.com</p>
   		</form>
-	</span>
 </section>
 
 
-<figure id="myfontSection" class="column column5 column-photo">
+<article id="myfontSection" class="column column5 column-photo">
 	<span class="col span_1_of_2"><?php include 'svg/font.php'; ?>
 		<div class="childElement-column-photo">
-		<h2 class="title">&copy Consolidation For Titles</h2>
+		<summary><h2 class="title">&copy Consolidation For Titles</h2></summary>
 		<p>I am not a typographer and not even close but I always thought it would be interesting to develop a typeface. While building this website I put the finishing touches to this font and launched it. If You noticed the weird big titles in this website it means You've now seen my font by now.<br>This specific font is created <b>only for titles</b>, it is not a good typeface for reading.<br>Contains only capital letters. No numbers or symbols.</div>
 	</span>
 	<span class="col span_1_of_2 childElement-column-photo fullHeight">
 		<h3 class="title" >Feel free to type your name!</h3>
-		<select class="button">
-			<option value="slim">slim</option>
-			<option value="bold">bold</option>
-		</select>
 		<input id="textInput" type="text" name="" maxlength="80" placeholder="name, text, etc.." style="margin: 2%; width: 90%;">
 		<p id="textDisplay"></p>
 	</span>
-</figure>
+</article>
 <!-- no content yet -->
-<div id="websitesSection" class="column column6 sub-section">github, j5s, learning-diary, studies-learn, personal goals</div>
+<section id="websitesSection" class="column column6 sub-section">
+	<div class="title-center">Front end journey</div>
+		<div class="childElement-sub-section">
+			<div>
+				<a href="https://github.com/ankeris"><p class="col span_1_of_2 button">GitHub profile</p></a>
+				<p class="col span_1_of_2 button">learning diary</p>
+			</div>
+			<div>
+			<p class="col span_1_of_2 button">studies directions</p>
+			<p class="col span_1_of_2 button">personal goals</p>
+			</div>
+		</div>
+</section>
 
-<div id="" class="column column7 column-photo">
-<span class="column-photo-title"><p>i'm just proud of my room, that's all</p></span>
+<div id="lastSection" class="column column7 column-photo">
+	<div class="childElement-column-photo col span_1_of_2">
+	<h3 class="title">p5 framework</h3>
+	<div>
+		<p>first example</p>
+	</div>
+	</div>
 </div>
 
 <footer id="footer" class="column column8">&copy 2 0 1 7 Rastenis</footer>
 <script src="js/background.js"></script>
 <script src="js/email.js"></script>
+<script src="js/font.js"></script>
 <script src="owlcarousel/jquery.min.js"></script> <!-- jQuery BELOW mandatory-->
 <script src="js/flow.js"></script>
-<script src="js/font.js"></script>
 <script src="owlcarousel/owl.carousel.min.js"></script>
 <script src="js/carouselSettings"></script>
 <script type="text/javascript">
