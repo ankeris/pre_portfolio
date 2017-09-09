@@ -13,6 +13,7 @@
 a {
 	color: rgba(255,255,255,0.8);
 	text-decoration: none;
+	cursor:pointer;
 }
 body{
 	-webkit-transition: 4s;
@@ -32,9 +33,9 @@ p {
 @font-face {
 font-family: "ConsolidationForTitles";
 src: 
-url("fonts/ConsolidationForTitles-Regular.ttf") format("truetype"),
-url("fonts/ConsolidationForTitles-Regular.otf") format("opentype"),
-url("fonts/ConsolidationForTitles-Regular.svg") format("svg");
+url("../fonts/ConsolidationForTitles-Regular.ttf") format("truetype"),
+url("../fonts/ConsolidationForTitles-Regular.otf") format("opentype"),
+url("../fonts/ConsolidationForTitles-Regular.svg") format("svg");
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -141,16 +142,16 @@ box-shadow: 5px 5px 5px 2px black;
 	text-align: center;
 }
 .column1{
-    background-image: url("pictures/img1opacity30.png"); 
+    background-image: url("../pictures/img1opacity30.png"); 
 }
 .column3{
-	background-image: url("pictures/img2opacity30.png"); 
+	background-image: url("../pictures/img2opacity30.png"); 
 }
 .column5{
-	background-image: url("pictures/img3opacity30.png"); 
+	background-image: url("../pictures/img3opacity30.png"); 
 }
 .column7{
-	background-image: url("pictures/img4opacity30.png"); 
+	background-image: url("../pictures/img4opacity30.png"); 
 }
 .column-photo {
 	/* width: 100%; not needed because it's 100% stock*/
@@ -289,7 +290,13 @@ display: none;
 	width: 100%;
 	height: 330px;
 }
-g.movieclip`
+.p5jsExample {
+	text-align: center;
+	padding: 10px;
+}
+.p5jsExample > canvas {
+	border-radius: 5px;
+}
 /*******************************************************************/
 /* 					    F o o T e r		 		  					/
 /*******************************************************************/

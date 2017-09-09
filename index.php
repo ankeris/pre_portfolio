@@ -3,8 +3,10 @@
 <head>
 	<title>Juozas Rastenis</title>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="style.php">
+	<link rel="stylesheet" type="text/css" href="css/style.php">
+	<link rel="stylesheet" href="css/popOut.php">
 	<link rel="stylesheet" type="text/css" href="svg/svgstyle.php">
+	
 	
 	<!-- fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
@@ -16,6 +18,8 @@
 	<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
 	<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/addons/p5.dom.min.js"></script>
 
 	<!-- mobile devices -->
 	<meta name="viewport" content="width=device-width" />
@@ -134,29 +138,64 @@
 	<div class="title-center">Front end journey</div>
 		<div class="childElement-sub-section">
 			<div>
-				<a href="https://github.com/ankeris"><p class="col span_1_of_2 button">GitHub profile</p></a>
-				<p class="col span_1_of_2 button">learning diary</p>
+				<a href="https://github.com/ankeris" class="col span_1_of_2 button" target="_blank">
+				<p>GitHub profile</p>
+				</a>
+
+				<a href="https://docs.google.com/document/d/1wkh24n5Mt5NeA5XDTk_lRFAYddV2rHfPzlzH26JVL_A/edit?usp=sharing" class="col span_1_of_2 button" target="_blank">
+				<p>personal learning diary</p>
+				</a>
 			</div>
 			<div>
-			<p class="col span_1_of_2 button">studies directions</p>
-			<p class="col span_1_of_2 button">personal goals</p>
+				<a id="myBtn" class="col span_1_of_2 button"><p>studies module</p></a>
+				<a id="myBtntwo" class="col span_1_of_2 button"><p>personal goals</p></a>
 			</div>
 		</div>
 </section>
 
-<div id="lastSection" class="column column7 column-photo">
-	<div class="childElement-column-photo col span_1_of_2">
-	<h3 class="title">p5 framework</h3>
-	<div>
-		<p>first example</p>
+<section id="lastSection" class="column column7 column-photo">
+	<div class="col span_1_of_2">
+			<div class="childElement-column-photo">
+				<h5 class="title">p5.js</h5>
+				<p>sketches I practise to draw and animate with javascript library named p5.js. In examples below I started with very basic interaction and ending with more complex functions.</p>
+			</div>
+			<div class="childElement-column-photo">
+			<p>1. Bouncing Ball</p>
+				<figure id="bouncingball" class="p5jsExample"></figure>
+			</div>
+			<div class="childElement-column-photo">
+					<p>2.</p>
+				<figure id="bubbleappearswhenclicked" class="p5jsExample"></figure>
+			</div>
+			<div class="childElement-column-photo">
+					<p>3.</p>
+				<figure class="p5jsExample"></figure>
+			</div>
 	</div>
+
+	<div class="col span_1_of_2">
+			<div class="childElement-column-photo">
+					<p>4. Circles go red only when they are touching each other.</p>
+				<figure class="p5jsExample"></figure>
+			</div>
+
+			<div class="childElement-column-photo">
+					<p>sketches I practise to draw and animate</p>
+				<figure class="p5jsExample"></figure>
+			</div>
 	</div>
-</div>
+
+</section>
+
+<?php include 'php/popoutstudiesmodule.php'; ?>
 
 <footer id="footer" class="column column8">&copy 2 0 1 7 Rastenis</footer>
 <script src="js/background.js"></script>
 <script src="js/email.js"></script>
 <script src="js/font.js"></script>
+<script src="js/popOut.js"></script>
+<script src="p5js/BouncingBall/sketch1.js"></script>
+<script src="p5js/bubbleAppearsWhenClicked/sketch2.js"></script>
 <script src="owlcarousel/jquery.min.js"></script> <!-- jQuery BELOW mandatory-->
 <script src="js/flow.js"></script>
 <script src="owlcarousel/owl.carousel.min.js"></script>
