@@ -26,6 +26,9 @@ html, body {
 	height: 100%;
 	-webkit-transition: 4s;
 }
+#lastSection {
+	height: 150%;
+}
 /* p{font-family: "Dosis"; font-size: 14pt;} */
 p {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;

@@ -18,8 +18,10 @@
 	<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
 	<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/addons/p5.dom.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/addons/p5.dom.js"></script>
 
 	<!-- mobile devices -->
 	<meta name="viewport" content="width=device-width" />
@@ -157,30 +159,30 @@
 	<div class="col span_1_of_2">
 			<div class="childElement-column-photo">
 				<h5 class="title">p5.js</h5>
-				<p>sketches I practise to draw and animate with javascript library named p5.js. In examples below I started with very basic interaction and ending with more complex functions.</p>
+				<p>sketches I practise to draw and animate with javascript library named p5.js. In examples below I started with very basic interaction and ending with more complex functions</p>
 			</div>
 			<div class="childElement-column-photo">
-			<p>1. Bouncing Ball</p>
-				<figure id="bouncingball" class="p5jsExample"></figure>
+					<p>1. Bouncing Ball</p>
+						<figure id="bouncingball" class="p5jsExample"></figure>
 			</div>
 			<div class="childElement-column-photo">
-					<p>2.</p>
-				<figure id="bubbleappearswhenclicked" class="p5jsExample"></figure>
+					<p>2. One click = one bubble! Wont let more than 50, since I don't want browser to freeze</p>
+					<figure id="bubbleAppearsWhenClicked" class="p5jsExample"></figure>
 			</div>
 			<div class="childElement-column-photo">
-					<p>3.</p>
+					<p>3. Balls will freeze if you click on them!</p>
 				<figure class="p5jsExample"></figure>
 			</div>
 	</div>
 
 	<div class="col span_1_of_2">
 			<div class="childElement-column-photo">
-					<p>4. Circles go red only when they are touching each other.</p>
+					<p>4. more bouncing figures, insert the number for balls</p>
 				<figure class="p5jsExample"></figure>
 			</div>
 
 			<div class="childElement-column-photo">
-					<p>sketches I practise to draw and animate</p>
+					<p>5. Circles go red only when they are touching each other.</p>
 				<figure class="p5jsExample"></figure>
 			</div>
 	</div>
@@ -194,8 +196,8 @@
 <script src="js/email.js"></script>
 <script src="js/font.js"></script>
 <script src="js/popOut.js"></script>
-<script src="p5js/BouncingBall/sketch1.js"></script>
-<script src="p5js/bubbleAppearsWhenClicked/sketch2.js"></script>
+<script src="p5js/BouncingBall/sketchOne.js"></script>
+<script src="p5js/bubbleAppearsWhenClicked/sketchTwo.js"></script>
 <script src="owlcarousel/jquery.min.js"></script> <!-- jQuery BELOW mandatory-->
 <script src="js/flow.js"></script>
 <script src="owlcarousel/owl.carousel.min.js"></script>
@@ -206,6 +208,5 @@
 });
 </script>
 </body>
-
 
 </html>
