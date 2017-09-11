@@ -171,19 +171,19 @@
 			</div>
 			<div class="childElement-column-photo">
 					<p>3. Balls will freeze if you click on them!</p>
-				<figure class="p5jsExample"></figure>
+				<figure id="ballsFreezeOnClick" class="p5jsExample"></figure>
 			</div>
 	</div>
 
 	<div class="col span_1_of_2">
 			<div class="childElement-column-photo">
 					<p>4. more bouncing figures, insert the number for balls</p>
-				<figure class="p5jsExample"></figure>
+				<figure id="moreBouncingFigures" class="p5jsExample"></figure>
 			</div>
 
 			<div class="childElement-column-photo">
-					<p>5. Circles go red only when they are touching each other.</p>
-				<figure class="p5jsExample"></figure>
+					<p>5. Circles go MAD only when they are touching each other.</p>
+				<figure id="ForInsideFor" class="p5jsExample"></figure>
 			</div>
 	</div>
 
@@ -198,6 +198,9 @@
 <script src="js/popOut.js"></script>
 <script src="p5js/BouncingBall/sketchOne.js"></script>
 <script src="p5js/bubbleAppearsWhenClicked/sketchTwo.js"></script>
+<script src="p5js/ballsFreezeOnClick/sketchThree.js"></script>
+<script src="p5js/moreBouncingFigures/sketchFour.js"></script>
+<script src="p5js/ForInsideFor/sketchFive.js"></script>
 <script src="owlcarousel/jquery.min.js"></script> <!-- jQuery BELOW mandatory-->
 <script src="js/flow.js"></script>
 <script src="owlcarousel/owl.carousel.min.js"></script>
