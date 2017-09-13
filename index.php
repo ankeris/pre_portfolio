@@ -127,8 +127,8 @@
 			</div>
 			<div class="childElement-column-photo">
 					<p>2. One click = one bubble! Wont let more than 50, since I don't want browser to freeze</p>
-					<iframe height='332' scrolling='no' title='WZNmjJ' src='//codepen.io/ankeris/embed/preview/WZNmjJ/?height=332&theme-id=dark&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/ankeris/pen/WZNmjJ/'>WZNmjJ</a> by Juozas Rastenis (<a href='https://codepen.io/ankeris'>@ankeris</a>) on <a href='https://codepen.io'>CodePen</a>.
-					</iframe>
+						<iframe height='332' scrolling='no' title='WZNmjJ' src='//codepen.io/ankeris/embed/preview/WZNmjJ/?height=332&theme-id=dark&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/ankeris/pen/WZNmjJ/'>WZNmjJ</a> by Juozas Rastenis (<a href='https://codepen.io/ankeris'>@ankeris</a>) on <a href='https://codepen.io'>CodePen</a>.
+						</iframe>
 			</div>
 	</div>
 
