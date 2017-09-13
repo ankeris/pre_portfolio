@@ -15,23 +15,33 @@ a {
 	text-decoration: none;
 	cursor:pointer;
 }
+a .link{
+	color: rgba(255,255,255,0.8);
+	text-decoration: underline;
+	cursor:pointer;
+	background-color: rgba(22,22,22,0.1);
+}
+li {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
 body{
 	-webkit-transition: 4s;
 	background-color: #246175;
 }
+#introductionSection{height: 100%;}
 .childElement-column-photo, .childElement-sub-section {
 	-webkit-transition: 4s;
+	overflow: hidden;
 }
-html, body {
-	height: 100%;
-	-webkit-transition: 4s;
-}
-#lastSection {
-	height: 150%;
+
+#socialmediaSection, #technologySection, #myfontSection {
+	overflow: hidden;
 }
 /* p{font-family: "Dosis"; font-size: 14pt;} */
 p {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-size: 12.5pt;
 	}
 @font-face {
 font-family: "ConsolidationForTitles";
@@ -41,16 +51,14 @@ url("../fonts/ConsolidationForTitles-Regular.otf") format("opentype"),
 url("../fonts/ConsolidationForTitles-Regular.svg") format("svg");
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5 {
 	margin: 0;
 	text-align: left;
-	color: rgba(255,255,255,0.7);
 	font-size: 17pt;
 	margin-top: 0;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
-    text-decoration: underline;
 }
 input, .input{
 	width: 100%;
@@ -103,6 +111,7 @@ input, .input{
 	font-size: 50pt;
 
 }
+
 /*******************************************************************/ 
 /* 					       Menu Navigation 							/
 /*******************************************************************/
@@ -136,6 +145,7 @@ nav a:hover {
 /* 					       L a Y O u T  							/
 /*******************************************************************/
 .column { 
+	width: 100%;
 margin: 0 auto;
 padding: 10px;
 position: relative;
@@ -158,12 +168,13 @@ box-shadow: 5px 5px 5px 2px black;
 }
 .column-photo {
 	/* width: 100%; not needed because it's 100% stock*/
-	height: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	margin-bottom: -12px;
 	color: rgba(255,255,255,0.8);
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 .sub-section {
@@ -183,6 +194,7 @@ border-radius: 28px;
 .childElement-column-photo{
 	width: 100%;
 	background-color: rgba(102, 153, 153, 0.8);
+	padding: 5px;
 	margin-top: 5%;
 	border-radius: 5px;
 	color: rgba(255,255,255,0.8);
@@ -318,10 +330,11 @@ footer {
 .column-photo {
 		background-position: 50% ;}
 .column1{
-    background-image: url("pictures/img1opacity30small.png"); 
+    background-image: url("pictures/img1opacity30small.png");
 }
 .column3{
 	background-image: url("pictures/img2opacity30small.png"); 
+
 }
 .column5{
 	background-image: url("pictures/img3opacity30small.png"); 
@@ -349,11 +362,6 @@ margin: 2px;
 border: 1px solid rgba(255,255,255,0.2);
 }
 }
-@media only screen and (max-height: 720px) {
-	html, body {
-	height: 115%;
-	-webkit-transition: 4s;
-}
-}
+
 
 

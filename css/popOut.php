@@ -20,7 +20,7 @@ table, td {
     border: 1px solid black;
     margin: 5px;
     padding: 3px;
-    border: 1px solid #ddd;
+    border: 2px solid rgba(255,255,255,0.7);
     text-align: left;
 }
 table{
@@ -35,11 +35,11 @@ th {
 /* Modal Content */
 .modal-content {
     position: relative;
-    background-color: #fefefe;
+    background-color: rgba(220,220,220,0.9);
     margin: 0 auto;
     padding: 0;
     border: 5px solid #888;
-    border-radius: 10px;
+    border-radius: 15px;
     width: 80%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     -webkit-animation-name: animatetop;

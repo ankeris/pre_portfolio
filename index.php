@@ -54,7 +54,7 @@
 			<h2 class="title">bio</h2>
 			<p>
 			Second year "Multimedia Design and Communication" student from Aarhus, Denmark.<br>
-			Mainly interested in frontend developement and subjects that relate and add up to it. 
+			Mainly interested in user experience, frontend developement and subjects that relate and add up to it. 
 			</p>
 		</div>
 		<div class="childElement-column-photo">
@@ -97,12 +97,92 @@
 
 
 <article id="socialmediaSection" class="column column3 column-photo">
-	<span class="col span_1_of_2"><?php include 'svg/socialmedia.php'; ?>
-		<div class="childElement-column-photo"><p>Social Media</p></div>
-	</span>
-	<span class="col span_1_of_2"></span>
+	<div class="col span_1_of_2">
+			<div class="childElement-column-photo">
+				<h5 class="title">Projects I've put my hands on</h5>
+				<p>From 2016 I have started doing multimedia related projects in my school. Now after gaining some knowledge I mainly specify in frontend developement.</p>
+				<p>My <b>goal</b> is to get this list drop to the footer!!</p>
+			</div>
+
+			<div class="childElement-column-photo">
+					<ul class="projectsList">
+						<li><a target="_blank" href="http://jonas-k.dk/TrainingWheel/index.php"><h5 class="link">"Training Wheel"</h5></a><p>Web Based Application, different approach to sports</p></li>
+						<li><a href="" target="_blank">In progress. . .</a></li>
+						<li><a href=""></a></li>
+					</ul>
+			</div>
+			<div>
+				<figure id="ForInsideFor" class="p5jsExample"></figure>
+			</div>
+
+			<div class="childElement-column-photo">
+				<h5 class="title">My JavaScript playground</h5>
+				<p>sketches I practise to draw and animate with javascript library named p5.js. In examples below I started with very basic interaction and ending with more complex functions</p>
+			</div>
+
+			<div class="childElement-column-photo">
+					<p>1. Bouncing Bubble</p>
+						<iframe height='332' scrolling='no' title='xXxBxo' src='//codepen.io/ankeris/embed/xXxBxo/?height=332&theme-id=dark&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/ankeris/pen/xXxBxo/'>xXxBxo</a> by Juozas Rastenis (<a href='https://codepen.io/ankeris'>@ankeris</a>) on <a href='https://codepen.io'>CodePen</a>.
+						</iframe>
+			</div>
+			<div class="childElement-column-photo">
+					<p>2. One click = one bubble! Wont let more than 50, since I don't want browser to freeze</p>
+					<iframe height='332' scrolling='no' title='WZNmjJ' src='//codepen.io/ankeris/embed/preview/WZNmjJ/?height=332&theme-id=dark&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/ankeris/pen/WZNmjJ/'>WZNmjJ</a> by Juozas Rastenis (<a href='https://codepen.io/ankeris'>@ankeris</a>) on <a href='https://codepen.io'>CodePen</a>.
+					</iframe>
+			</div>
+	</div>
+
+	<div class="col span_1_of_2">
+
+			<div class="childElement-column-photo">
+					<p>3. Bubbles will freeze if you click on them!</p>
+				<iframe height='373' scrolling='no' title='pWoYaq' src='//codepen.io/ankeris/embed/preview/pWoYaq/?height=373&theme-id=dark&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/ankeris/pen/pWoYaq/'>pWoYaq</a> by Juozas Rastenis (<a href='https://codepen.io/ankeris'>@ankeris</a>) on <a href='https://codepen.io'>CodePen</a>.
+				</iframe>
+			</div>
+
+			<div class="childElement-column-photo">
+					<p>4. Bubbless go MAD when touching each other</p>
+					<iframe height='332' scrolling='no' title='gGbYWO' src='//codepen.io/ankeris/embed/preview/gGbYWO/?height=332&theme-id=dark&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/ankeris/pen/gGbYWO/'>gGbYWO</a> by Juozas Rastenis (<a href='https://codepen.io/ankeris'>@ankeris</a>) on <a href='https://codepen.io'>CodePen</a>.
+					</iframe>
+			</div>
+	</div>
 </article>
 
+<section id="websitesSection" class="column column6 sub-section">
+	<div class="title-center">Front end journey</div>
+		<div class="childElement-sub-section">
+			<div>
+				<a href="https://github.com/ankeris" class="col span_1_of_2 button" target="_blank">
+				<p>GitHub profile</p>
+				</a>
+
+				<a href="https://docs.google.com/document/d/1wkh24n5Mt5NeA5XDTk_lRFAYddV2rHfPzlzH26JVL_A/edit?usp=sharing" class="col span_1_of_2 button" target="_blank">
+				<p>personal learning diary</p>
+				</a>
+			</div>
+			<div>
+				<a id="myBtn" class="col span_1_of_2 button"><p>studies module</p></a>
+				<a id="myBtntwo" class="col span_1_of_2 button"><p>personal goals</p></a>
+			</div>
+		</div>
+</section>
+
+
+
+
+<article id="myfontSection" class="column column5 column-photo">
+	<span class="col span_1_of_2"><?php include 'svg/font.php'; ?>
+		<div class="childElement-column-photo">
+		<summary><h2 class="title">&copy Consolidation For Titles</h2></summary>
+		<p>I am not a typographer and not even close but I always thought it would be interesting to develop a typeface. While building this website I put the finishing touches to this font and launched it. While browsing this website you can notice the big titles that are my font.<br>This specific font is created <b>only for titles</b>, it is not a good typeface for reading.<br>Contains only capital letters. No numbers or symbols.</div>
+	</span>
+	<span class="col span_1_of_2 childElement-column-photo fullHeight">
+		<h3 class="title" >Try my font, write your name!</h3>
+		<input id="textInput" type="text" name="" maxlength="80" placeholder="name, text, etc.." style="margin: 2%; width: 90%;">
+		<p id="textDisplay"></p>
+	</span>
+</article>
+<!-- no content yet -->
 
 <section id="contactSection" class="column column4 sub-section">
 	<span class="title-center"><?php include 'svg/contactme.php'; ?></span>
@@ -123,69 +203,15 @@
 </section>
 
 
-<article id="myfontSection" class="column column5 column-photo">
-	<span class="col span_1_of_2"><?php include 'svg/font.php'; ?>
-		<div class="childElement-column-photo">
-		<summary><h2 class="title">&copy Consolidation For Titles</h2></summary>
-		<p>I am not a typographer and not even close but I always thought it would be interesting to develop a typeface. While building this website I put the finishing touches to this font and launched it. If You noticed the weird big titles in this website it means You've now seen my font by now.<br>This specific font is created <b>only for titles</b>, it is not a good typeface for reading.<br>Contains only capital letters. No numbers or symbols.</div>
-	</span>
-	<span class="col span_1_of_2 childElement-column-photo fullHeight">
-		<h3 class="title" >Feel free to type your name!</h3>
-		<input id="textInput" type="text" name="" maxlength="80" placeholder="name, text, etc.." style="margin: 2%; width: 90%;">
-		<p id="textDisplay"></p>
-	</span>
-</article>
-<!-- no content yet -->
-<section id="websitesSection" class="column column6 sub-section">
-	<div class="title-center">Front end journey</div>
-		<div class="childElement-sub-section">
-			<div>
-				<a href="https://github.com/ankeris" class="col span_1_of_2 button" target="_blank">
-				<p>GitHub profile</p>
-				</a>
 
-				<a href="https://docs.google.com/document/d/1wkh24n5Mt5NeA5XDTk_lRFAYddV2rHfPzlzH26JVL_A/edit?usp=sharing" class="col span_1_of_2 button" target="_blank">
-				<p>personal learning diary</p>
-				</a>
-			</div>
-			<div>
-				<a id="myBtn" class="col span_1_of_2 button"><p>studies module</p></a>
-				<a id="myBtntwo" class="col span_1_of_2 button"><p>personal goals</p></a>
-			</div>
-		</div>
-</section>
+
+
+
+
+
+
 
 <section id="lastSection" class="column column7 column-photo">
-	<div class="col span_1_of_2">
-			<div class="childElement-column-photo">
-				<h5 class="title">p5.js</h5>
-				<p>sketches I practise to draw and animate with javascript library named p5.js. In examples below I started with very basic interaction and ending with more complex functions</p>
-			</div>
-			<div class="childElement-column-photo">
-					<p>1. Bouncing Ball</p>
-						<figure id="bouncingball" class="p5jsExample"></figure>
-			</div>
-			<div class="childElement-column-photo">
-					<p>2. One click = one bubble! Wont let more than 50, since I don't want browser to freeze</p>
-					<figure id="bubbleAppearsWhenClicked" class="p5jsExample"></figure>
-			</div>
-			<div class="childElement-column-photo">
-					<p>3. Balls will freeze if you click on them!</p>
-				<figure id="ballsFreezeOnClick" class="p5jsExample"></figure>
-			</div>
-	</div>
-
-	<div class="col span_1_of_2">
-			<div class="childElement-column-photo">
-					<p>4. more bouncing figures, insert the number for balls</p>
-				<figure id="moreBouncingFigures" class="p5jsExample"></figure>
-			</div>
-
-			<div class="childElement-column-photo">
-					<p>5. Circles go MAD only when they are touching each other.</p>
-				<figure id="ForInsideFor" class="p5jsExample"></figure>
-			</div>
-	</div>
 
 </section>
 
@@ -196,11 +222,6 @@
 <script src="js/email.js"></script>
 <script src="js/font.js"></script>
 <script src="js/popOut.js"></script>
-<script src="p5js/BouncingBall/sketchOne.js"></script>
-<script src="p5js/bubbleAppearsWhenClicked/sketchTwo.js"></script>
-<script src="p5js/ballsFreezeOnClick/sketchThree.js"></script>
-<script src="p5js/moreBouncingFigures/sketchFour.js"></script>
-<script src="p5js/ForInsideFor/sketchFive.js"></script>
 <script src="owlcarousel/jquery.min.js"></script> <!-- jQuery BELOW mandatory-->
 <script src="js/flow.js"></script>
 <script src="owlcarousel/owl.carousel.min.js"></script>
